@@ -155,13 +155,15 @@ ip addr
 nano etc/systemd/network/20-wired.network
 ```
 input the following in said file:
-```
-"[Match]
+
+~~~
+[Match]
 Name=ens33
 
 [Network]
-DHCP=yes"
-```
+DHCP=yes
+~~~
+
 - 7.13. set the root password using:
 ```
 passwd
