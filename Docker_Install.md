@@ -117,4 +117,5 @@ http://localhost/admin
 ```
 http://192.168.137.131/admin
 ```
+![pi-hole](./image.png)
 #
