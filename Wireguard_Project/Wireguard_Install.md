@@ -119,9 +119,9 @@ docker compose logs -f wireguard
     - [Mac OS](https://itunes.apple.com/us/app/wireguard/id1451685025?ls=1&mt=12)
 - 5.8. after installing the app on your phone you will scan the qr code that was generated in the previous command
     - iPhone Disconnected![iPhone Disconnected](./iPhone_Disconnected.jpg)
-    - iPhone Tunnel Disconnected![iPhone Tunnel Disconnected](./iPhone_Tunnel_Disconnected.png)
-    - iPhone Connected![iPhone Connected](./iPhone_Connected.png)
-    - iPhone Tunnel Connected![iPhone Tunnel Connected](./iPhone_Tunnel_Connected.png)
+    - iPhone Tunnel Disconnected![iPhone Tunnel Disconnected](./iPhone_Tunnel_Disconnected.PNG)
+    - iPhone Connected![iPhone Connected](./iPhone_Connected.PNG)
+    - iPhone Tunnel Connected![iPhone Tunnel Connected](./iPhone_Tunnel_Connected.PNG)
 - 5.9. After installing the app on your laptop you will need to locate the config file on the docker container and import that into your wireguard app. I did this with the following command:
 ```
 docker exec wireguard cat /config/peer_myPC/peer_myPC.conf
